@@ -163,8 +163,7 @@ python sweep_hawq.py \
 ```bash
 # 1) Env (pip)
 python3.10 -m venv .venv && source .venv/bin/activate && pip install --upgrade pip
-pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121
-pip install wandb==0.17.8 numpy==1.26.4 tqdm==4.66.4 rich==13.7.1
+pip install -r requirements.txt
 
 # 2) Train
 export PYTHONHASHSEED=42
