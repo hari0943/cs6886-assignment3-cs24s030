@@ -27,27 +27,7 @@ pip install --upgrade pip
 
 ### Install dependencies — GPU (CUDA 12.1 wheels)
 ```bash
-pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 \
-  --index-url https://download.pytorch.org/whl/cu121
-
-pip install wandb==0.17.8 numpy==1.26.4 tqdm==4.66.4 rich==13.7.1
-```
-
-### Install dependencies — CPU only
-```bash
-pip install torch==2.3.1+cpu torchvision==0.18.1+cpu torchaudio==2.3.1+cpu \
-  --index-url https://download.pytorch.org/whl/cpu
-
-pip install wandb==0.17.8 numpy==1.26.4 tqdm==4.66.4 rich==13.7.1
-```
-
-*(Optional)* Save as `requirements.txt` and install with:
-```bash
-# GPU:
-pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu121
-# CPU:
-# pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cpu
-```
+pip install -r requirements.txt 
 
 ---
 
